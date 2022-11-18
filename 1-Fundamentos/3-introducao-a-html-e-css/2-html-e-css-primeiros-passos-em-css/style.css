@@ -1,0 +1,61 @@
+<style>
+
+   body{font-family: Montserrat, sans-serif}
+
+   p, li,ul{
+    font-size:16px;
+    color: blue
+    /* Background-color: blue; */
+   }  
+
+   h1,h2, h3, h4 {
+    color: #11a36a
+   }
+
+   .trybe_black{
+    color:black;
+   }
+
+#morfar {
+    Background-color: blue 
+}
+
+li{
+    font-size:16px;
+    color: #475550
+    /* Background-color: blue; */
+}
+
+/* TAG < CLASS < ID */
+
+.hero-title{
+    line-height: 55px;
+    font-weight: 400px;
+    font-size: 45px; 
+}
+
+
+    .picture {
+        border-radius: 20%
+
+    } 
+
+   
+        .button {
+            color: #fff;
+            background-color:#11a36a;
+            text-decoration:none;
+            padding: 15px 30px;
+        }
+    
+        .word {
+            width: 500px;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            word-break: break-word;
+        }
+.texto {
+    color:#11a36a
+}
+
+</style>
