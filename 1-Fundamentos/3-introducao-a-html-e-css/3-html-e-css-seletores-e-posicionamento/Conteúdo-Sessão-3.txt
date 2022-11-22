@@ -142,4 +142,8 @@ se tiver no inline, mas colocar float: right, vira block e pode mexer na altura
 
 Como fazer um link em HTML:
 No HTML, os links são definidos pela tag <a>. Dentro dessa tag incluímos o atributo href (Hypertext Reference), que é o endereço de destino do link. Dentro do conteúdo da tag <a>, incluímos então o texto ou elemento que servirá como redirecionador, ou seja, que ao ser clicado, executará a função de redirecionar para o endereço dentro do atributo href.Dessa forma, a sintaxe básica do HTML link é:
-<a href="url">Exemplo</a>                               
+<a href="url">Exemplo</a>        
+  - nesse comando:
+    - target="_blank" é para abrir o link externo 
+    - rel= só usa qdo pedir algo muito específico do link
+                       
