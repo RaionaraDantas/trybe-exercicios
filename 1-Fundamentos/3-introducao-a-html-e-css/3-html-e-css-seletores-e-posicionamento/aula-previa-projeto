@@ -1,0 +1,53 @@
+cabeçalho usa: 
+<header> id=*cabeçalho
+  <div> p dividir
+     <a href="#">Portifólio</a>
+     <div>
+     <nav>
+       <ul>
+       li x 3
+       se segurar o alt e clicar , repete o texto.
+       <ul>
+       
+       display flax (link lado a lado)
+       gap (distancia entere)
+       
+       pegar print de 40min
+       
+       alt z (quebra as linhas)
+       fonte awesome
+       
+       cria div pra colocar link de fonteawesome
+       
+       nave bar (nav) barra de navegação(topo da pag)
+       
+       dentro do header:  e outro booter, footer 1h e 50 min
+       
+   comenta com ctrl barra *
+   
+   class (ponto)
+   
+   id pra uma coisa só
+   class: pode usar pra várias coisas
+   
+   font melhor usar 400 pra fina
+   link 600
+   título 800
+   
+   diferença do pading pra margin:
+    p: espaço dentro
+    m: lado d efora
+    
+    hover: passa mouse em cima muda a cor
+    
+    cor especifica color hexadecinal: cor específica
+    
+    ctrl barra (acho que é tópico) n aparece na tela
+    
+    display: flax (lado a lado) olha esq dir cima baixo
+    
+    nem sempre margin 0 auto funcuiona. Aí usa justify-contet
+    
+    tirar bolinha nos tópicos: life-style nano
+    
+    div/id/classe/css: dentre elas a classe é q tem mais prioridade
