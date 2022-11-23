@@ -25,7 +25,8 @@ cabeçalho usa:
        
    comenta com ctrl barra *
    
-   class (ponto)
+   class: usa ponto
+   id: usa #
    
    id pra uma coisa só
    class: pode usar pra várias coisas
