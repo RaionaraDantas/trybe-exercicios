@@ -4,7 +4,8 @@ lef age = 20;
 age = 30; // number literal (valor inteiro ou quebrado)
 let name=" "; // string literal (seq de caract)
 let isValid = (valor boolean. Ou 1 ou 0. ou true ou false)
-let name; (variável indefinida)
+let name; //undefined (variável indefinida)
+let color = null; //redefinição (pq, por exe o siite pode começar sem cor e depois é q atribui)
 
  -Não pode ter espaço nem número na variável. Usa fullName se precisar
  -a let consegue reatribuir valor
@@ -27,4 +28,9 @@ console.log(myName);
 console.log(birthCity);
 console.log(birthYear);
 
+no inspecionar procura assim:
+typeof (nome da variável = o que vem depois de left)
+/ (divisão) ** (exponenciação)
+
+++ (incrementar. igual a 1. aumenta 1)   -- (decrementar.igual a 1. diminui 1)
 
