@@ -1,0 +1,30 @@
+começar codigo, precisa variável
+ex:
+lef age = 20;
+age = 30; // number literal (valor inteiro ou quebrado)
+let name=" "; // string literal (seq de caract)
+let isValid = (valor boolean. Ou 1 ou 0. ou true ou false)
+let name; (variável indefinida)
+
+ -Não pode ter espaço nem número na variável. Usa fullName se precisar
+ -a let consegue reatribuir valor
+
+Para ver:
+console.log(age);
+
+Clica com botão direito > run code
+
+const n pode reatribuir
+
+let birthYear = 2030;
+
+const myName = Raionara;
+const birthCity = Macaíba;
+let birthYear = 1995;
+
+
+console.log(myName);
+console.log(birthCity);
+console.log(birthYear);
+
+
