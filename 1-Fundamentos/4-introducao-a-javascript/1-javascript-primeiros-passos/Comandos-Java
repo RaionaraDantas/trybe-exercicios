@@ -1,11 +1,11 @@
 começar codigo, precisa variável
 ex:
-lef age = 20;
+let age = 20;
 age = 30; // number literal (valor inteiro ou quebrado)
 let name=" "; // string literal (seq de caract)
 let isValid = (valor boolean. Ou 1 ou 0. ou true ou false)
 let name; //undefined (variável indefinida)
-let color = null; //redefinição (pq, por exe o siite pode começar sem cor e depois é q atribui)
+let color = null; //redefinição (pq, por exe o site pode começar sem cor e depois é q atribui)
 
  -Não pode ter espaço nem número na variável. Usa fullName se precisar
  -a let consegue reatribuir valor
@@ -34,3 +34,51 @@ typeof (nome da variável = o que vem depois de left)
 
 ++ (incrementar. igual a 1. aumenta 1)   -- (decrementar.igual a 1. diminui 1)
 
+Operadores de condição:
+
+//if = se             //else=senão
+
+if (condicao) {
+  //codigo
+}
+else if (outraCondicao) {
+   //outra condicao 
+}
+
+(se nenhuma dessa acpontecer:)
+else {
+  //condicao 
+}
+
+Operadores Lógicos
+
+and: &&, or: ||, not: !
+
+internet:
+
+1: verdadeiro 0: falso
+
+if (true == 'true')  // aqui vai dar true
+if (true == '1')     // aqui vai dar true
+if (true == true)    // aqui vai dar true
+if (true === 'true') // aqui vai dar false
+if (true === '1')    // aqui vai dar false (true é interger e "1" é uma strinng (seq de caract e sempre está entre aspas) 
+if (true === true)   // aqui vai dar true
+
+inteiros (integer)
+Os números podem ser inteiros positivos ou negativos. No entanto, inteiros são valores de ponto flutuante em JavaScript. O valor de inteiros será preciso até 15 dígitos em JavaScript. Números inteiros com 16 dígitos em diante serão alterados e arredondados para cima ou para baixo; portanto, use BigInt para inteiros maiores que 15 dígitos.
+
+Um bloco é geralmente um pedaço de código limitado por {}. Sabemos que um bloco vive entre chaves e qualquer coisa entre chaves é um bloco.
+
+Portanto, uma variável declarada em um bloco com let. Só está disponível para uso dentro desse bloco. Observe o exemplo abaixo:
+
+Turma XP:
+ let: declare identificador variável
+ string: conj de caracteres literal. Pode escrever várias coisas, vários caracteres. Tem aspas. É um dos tipos
+ /* e // comentam a linha
+ ==} comparação
+ ===} compara se os valores são iguais e do mesmo tipo
+ iseven= para saber se o numero é par = % (simbolo de divisao, mas mostra o que resta)
+ switch case: n precisa procurar, já vai direto no botão. É bom qdo consegue limitar as possibilidades, tipo dias da semana. Ao lado dela fica a variável q quer avaliar
+ default (padrao): caso o valor n seja encontrado em nenhum dos casos, o valor padrao será executado
+ break: encerra a instrução switch case
