@@ -1,0 +1,53 @@
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// for (let index = 0; index < numbers.length; index +=1) {
+    // console.log(numbers[index]);
+// } 
+// primeiro a variável de início, depois o tam, por fim é o final, que varia de 1 em 1. Isso foi para descrever.
+// Agora vai somar:
+
+// let result = 0;
+// for (let index = 0; index < numbers.length; index += 1) {
+    // result += numbers [index];
+// }
+// console.log(result); 
+// Resultado vai a cada interação somar o que tem nela mesma mais cada elemento do nosso Array
+// Agora é a média aritmética:
+
+// let average = result / numbers.length;
+// console.log(average);
+
+// Novo tópico:
+
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let result = 0;
+
+// //       começa   ;  condicao de parada   ; ao fim do for
+// for (let index = 0; index < numbers.length; index += 1) {
+//   result += numbers[index];
+//   result = result + numbers[index];
+// }
+
+// average = result / numbers.length;
+// console.log('O valor da media é:', average);
+
+// if (average > 20) {
+//   console.log('valor maior que 20');
+// } else {
+//   console.log('valor menor ou igual a 20');
+// }
+
+// Maior valor contido no array - usando o for:
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+let higherNumber = numbers[0];
+
+
+for (let index = 1; index < numbers.length; index += 1) {
+    if (numbers[index] > higherNumber) {
+      higherNumber = numbers[index];
+    }
+}
+
+console.log(higherNumber);

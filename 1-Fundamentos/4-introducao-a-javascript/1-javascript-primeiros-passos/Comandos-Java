@@ -82,3 +82,6 @@ Turma XP:
  switch case: n precisa procurar, já vai direto no botão. É bom qdo consegue limitar as possibilidades, tipo dias da semana. Ao lado dela fica a variável q quer avaliar
  default (padrao): caso o valor n seja encontrado em nenhum dos casos, o valor padrao será executado
  break: encerra a instrução switch case
+ 
+ // (verificar os casos, os valores que acontecem com a peça)
+ // (caso chessPiece tenha o valor bispo, executa) 

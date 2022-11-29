@@ -1,0 +1,88 @@
+// let numA = 10;
+// let numB = 5;
+
+// let sum = numA + numB;
+// console.log(sum);
+
+// let sub = numA - numB;
+// console.log(sub);
+
+// let mult = numA * numB;
+// console.log(mult);
+
+// let div = numA / numB;
+// console.log(div);
+
+// let mod = numA % numB;
+// console.log(mod);
+
+// Segundo exercício:
+
+// const degreeAngleA = 65;
+// const degreeAngleB = 100;
+// const degreeAngleC = 15;
+
+// let sumOfAngles = degreeAngleA + degreeAngleB + degreeAngleC;
+// let allAnglesArePositives = degreeAngleA >  0 && degreeAngleB > 0 && degreeAngleC > 0;
+
+// if(allAnglesArePositives){
+// if (sumOfAngles === 180) {
+// console.log(true);
+// } else {
+// console.log(false);
+// };
+// } else {
+// console.log("erro: ângulo inválido");
+// }
+
+// Questão de Xadrez
+
+// let chessPiece = 'Bispo';
+
+// switch(chessPiece.toLowerCase()) {  // (verificar os casos, os valores que acontecem com a peça)
+// case 'bispo': console.log('Bispo -> Diagonal');  // (caso chessPiece tenha o valor bispo, executa)
+// break;
+// }
+
+// Questão INSS - Descobrir salário liq:
+
+// INSS (Instituto Nacional do Seguro Social):
+// Salário bruto até R$ 1.556,94: alíquota de 8%
+// Salário bruto de R$ 1.556,95 a R$ 2.594,92: alíquota de 9%
+// Salário bruto de R$ 2.594,93 a R$ 5.189,82: alíquota de 11%
+// Salário bruto acima de R$ 5.189,82: alíquota máxima de R$ 570,88
+
+let salario = 2000;
+let descontoInss = 0;
+let descontoIr = 0;
+
+if (salario <= 1556.94) {
+  descontoInss = (8 / 100) * salario;
+} else if (salario >= 1556.95 && salario <= 2594.92) {
+  descontoInss = (9 / 100) * salario;
+} else if ((salario >= 2.594, 93 && salario <= 5189.82)) {
+  descontoInss = (11 / 100) * salario;
+} else if (salario >= 5189.82) {
+  descontoInss = 570.88;
+}
+
+// IR (Imposto de Renda):
+// Até R$ 1.903,98: isento de imposto de renda
+// De R$ 1.903,99 a 2.826,65: alíquota de 7,5% e parcela de R$ 142,80 a deduzir do imposto
+// De R$ 2.826,66 a R$ 3.751,05: alíquota de 15% e parcela de R$ 354,80 a deduzir do imposto
+// De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto
+// Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto.
+
+if (salario <= 1903.98) {
+  descontoIr = 0;
+} else if (salario >= 1903.99 && salario <= 2826.65) {
+  descontoIr = ((7.5 / 100) * salario) - 142.80;
+} else if (salario >= 2826.66 && salario <= 3751.05) {
+  descontoIr = ((15 / 100) * salario) - 354.80;
+} else if (salario >= 3751.06 && salario <= 4664.68) {
+  descontoIr = ((22.5 / 100) * salario) - 636.13;
+} else if (salario > 4664.68) {
+  descontoIr = ((27.5 / 100) * salario) - 869.36;
+}
+
+console.log(salario - descontoInss - descontoIr);
